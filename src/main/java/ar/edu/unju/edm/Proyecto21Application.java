@@ -12,6 +12,7 @@ public class Proyecto21Application {
 		SpringApplication.run(Proyecto21Application.class, args);
 		CalculadoraControler nuevContr = new CalculadoraControler();
 		nuevContr.resolverSuma();
+		System.out.println("hola");
 	}
 
 }
