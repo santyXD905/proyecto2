@@ -15,7 +15,6 @@ public class CuentaControler {
 		System.out.println("saldo: "+ OtraCuenta.getSaldo());
 		OtraCuenta.depositar(1000);
 		System.out.println("saldo: "+ OtraCuenta.getSaldo());
-		OtraCuenta.extraer(550);
 		System.out.println("saldo: "+ OtraCuenta.getSaldo());
 	}
 }
