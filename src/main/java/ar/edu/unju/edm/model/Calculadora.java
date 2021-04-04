@@ -35,6 +35,11 @@ public int sumar() {
 	return a+b;
 }
 
+public float dividir() {
+	float xa=a,xb=b;
+	return xa/xb;
+}
+
 //todas las clases son "hijas" de la clase object
 // se pueden eredar metodos de objetc 
 // source->tostring()

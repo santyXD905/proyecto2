@@ -14,7 +14,8 @@ public class CalculadoraControler {
         nuevCalc.setB(b);
         
         
-       System.out.println("el resultado es"+ nuevCalc.sumar());
+       System.out.println("el resultado de la suma es "+ nuevCalc.sumar());
+       System.out.println("el resultado de la division es "+ nuevCalc.dividir());
         
 	}
 	
